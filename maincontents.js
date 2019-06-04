@@ -131,25 +131,25 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
            // window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Welcome to Accenture Innovation Day");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("Bienvenido a Flame Engineering.");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
     if(btn_info[1] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Let's Innovate together");
+        window.external.PlaySpeech("Presione en un ícono para aprender más sobre nuestra compañía.");
         
     }
     if(btn_info[2] == '1'){
         //window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Thank you for visiting our Innovation Event ");
+            window.external.PlaySpeech("Toma una foto conmigo.");
     }
     if(btn_info[3] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-       window.external.PlaySpeech("Our innovation led approach will help you develop and deliver disruptive innovations, and to scale them faster.");
+       window.external.PlaySpeech("Welcome to Flame Engineering, press on an icon to learn more about our products.");
         
     }
     if(btn_info[4] == '1'){
